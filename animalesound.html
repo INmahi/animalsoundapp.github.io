@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30"><meta http-equiv="refresh" content="5">
+    <title>Document</title>
+    <link rel="stylesheet" href="animale sound.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body onload="loadinFunction()">
+    <div id="preloader">
+
+    </div>
+<div class="marquee"> <div class="move">A Statick App By Mahi &nbsp; &nbsp; || &nbsp; &nbsp;  &copy; Ishat Noor Mahi &nbsp; &nbsp;  || &nbsp; &nbsp;  2020</div></div>
+ <div class="contain" id="send"><i class="fas fa-cog spin" id="disappear" onclick="openContact()"></i><i class="fas fa-chevron-circle-left" id="left" style="display: none;" onclick="closeContact()"></i></div>
+ <div class="overlay" id="overlay">
+     <h4 style="font-size: 23px;">Contact Me</h4>
+     <hr>
+    <div class="social-icon">
+        <ul>
+            <li><a href="https://www.facebook.com/ishat.noor.mahi/"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.plus.google.com"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="https://www.instagram.com/ishat_noor_mahi_787/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://github.com/Mahi787"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+    <div class="mail">
+        <hr>
+        <h4>Email</h4>
+    <i class="far fa-envelope"></i> <a href="mailto:ishatnoormahi787@gmail.com">ishatnoormahi787@gmail.com</a>
+    </div>
+</div>
+    <div class="mobile-menu" id="mob-menu">
+        <h4 style="font-size: 23px;">Contact Me</h4>
+         <hr>
+        <div class="social-icon">
+            <ul>
+                <li><a href="https://www.facebook.com/ishat.noor.mahi/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                <li><a href="https://www.plus.google.com"><i class="fab fa-google-plus-g"></i>Google Plus</a></li>
+                <li><a href="https://www.instagram.com/ishat_noor_mahi_787/"><i class="fab fa-instagram"></i>Instagram</a></li>
+                <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i>Twitter</a></li>
+                <li><a href="https://github.com/Mahi787"><i class="fab fa-github"></i>Github</a></li>
+            </ul>
+        </div>
+        <div class="mail">
+            <hr>
+            <h4>Email</h4>
+        <i class="far fa-envelope"></i> <a href="mailto:ishatnoormahi787@gmail.com">ishatnoormahi787@gmail.com</a>
+        </div>
+    </div>
+
+ 
+    <h1>Animale Sound App</h1>
+    <div class="container">
+        <audio src="" class="audio"></audio>
+        <div data-sound="dog.mp3" data-text="Dog" onclick="animaleSound(this)"class="animate" id="catch">
+            <img src="dog.jpg">
+        </div>
+
+        <div data-sound="cat.mp3" data-text="Cat" onclick="animaleSound(this)"class="animate">
+            <img src="cat.jpg">
+        </div>
+
+        <div data-sound="tiger.mp3" data-text="Tiger" onclick="animaleSound(this)"class="animate">
+            <img src="tiger.jpg">
+        </div>
+
+        <div data-sound="lion.mp3" data-text="Lion" onclick="animaleSound(this)"class="animate">
+            <img src="lion.jpeg">
+        </div>
+
+        <div data-sound="snake.mp3" data-text="Snake" onclick="animaleSound(this)"class="animate">
+            <img src="snake.jpg">
+        </div>
+
+        <div data-sound="pig.mp3" data-text="Pig" onclick="animaleSound(this)"class="animate">
+            <img src="pig.jpg">
+        </div>
+
+        <div data-sound="zebra.mp3" data-text="Zebra" onclick="animaleSound(this)"class="animate">
+            <img src="zebra.jpg">
+        </div>
+
+        <div data-sound="elephant.mp3" data-text="Elephant" onclick="animaleSound(this)"class="animate">
+            <img src="elephant.jpg">
+        </div>
+
+        <div data-sound="hyena.mp3" data-text="Hyena" onclick="animaleSound(this)"class="animate">
+            <img src="hyena.jpg">
+        </div>
+    </div>
+ 
+    <div class="animaleName">Click on a Animale</div>
+    <div class="reload" title="Reload App" onclick="show()">
+        <i class="fas fa-redo-alt rotate" onclick="window.location.reload()"></i>
+    </div>
+    <!--these iframes r used to increase the page size so that the preloader shows clearly.-->
+    <iframe width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/x2K6ZP7iUYA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/dXv26VA_YPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/dXv26VA_YPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/dXv26VA_YPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<script>
+    var loader=document.getElementById('preloader');
+function loadinFunction(){
+    loader.style.display='none';
+}
+</script> 
+<script src="Jquery.js"></script>
+<script src="animale sound.js"></script>
+</body>
+</html>

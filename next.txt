@@ -1,0 +1,3 @@
+=>animation delay; timing-function; 
+=>animate the marquee;
+=> website preloader;
